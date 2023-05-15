@@ -1,0 +1,91 @@
+:root {
+    --preto: #111111; 
+    --cinza-escuro: #2c2c2c;
+    --branco:#fefefe;
+    --cinza-claro: #f0f0f0;
+    --roxo: #6c63ff;
+    --roxo-escuro: #3f3a99;
+    --fonte: 'Montserrat', sans-serif;
+    --cinza-claro-transparente: rgba(227, 227, 227, 0.5)
+}
+
+.bg-claro{
+    background-color: var(--cinza-claro);
+}
+
+.menu:hover {
+    border-bottom: solid 3px var(--roxo);
+}
+
+.apresentacao__imagem {
+    width: 50%;
+    max-width: 400px;
+}
+
+.sobre__foto {
+    border-radius: 50%;
+    width: 25%;
+    max-width: 200px;
+    border: solid 3px var(--roxo);
+}
+
+.btn-cor-especial {
+    background-color: var(--roxo);
+    color: var(--branco);
+}
+
+.article-w {
+    max-width: 100rem;
+}
+
+.card-w {
+    max-width: 30rem;
+}
+
+.projetos__imagem {
+    width: 80%;
+    max-width: 600px;
+}
+
+.conhecimentos__logos img {
+    max-width: 100px;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.max-w {
+    max-width: 800px;
+}
+
+footer {
+    background: var(--roxo);
+}
+
+footer a {
+    width: 10%;
+    max-width: 50px;
+}
+
+.dark {
+    background-color: var(--preto);
+    color: var(--branco);
+}
+
+
+.dark .bg-claro {
+    background-color: var(--cinza-escuro);
+}
+
+.dark .navbar-brand {
+    color: var(--branco);
+}
+
+.dark .navbar-light .navbar-nav .nav-link {
+    color: var(--branco);
+}
+
+.navbar-brand {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
